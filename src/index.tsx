@@ -5,9 +5,7 @@ import {Provider} from "react-redux";
 import {setupStore} from "./store/store";
 import {BrowserRouter} from "react-router-dom";
 
-const container = document.getElementById('root')!;
-const root = createRoot(container);
-
+const root = createRoot(document.getElementById('root')!);
 const store = setupStore()
 
 root.render(
