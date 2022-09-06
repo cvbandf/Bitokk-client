@@ -13,7 +13,7 @@ export const App:FC = () => {
 
 return (
     <Routes >
-        <Route path="" element={<MainPage />} />
+        <Route index element={<MainPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/giveaway" element={<GiveawayPage />} />
         <Route path="/partners" element={<PartnersPage />} />
